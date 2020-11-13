@@ -3,7 +3,7 @@ function apiFetch(){
     var location = document.getElementById("mytxt").value;
    
     
-    var url = `https://api.openweathermap.org/data/2.5/weather\?q\=${location}\&appid\=5516fb8e1cb159afa0bc41ac8813a9e0`;
+    var url = `https://api.openweathermap.org/data/2.5/weather\?q\=${location}\&appid\={give your api key}`;
     
     fetch(url).then(
         response => {
